@@ -1,0 +1,82 @@
+.app-page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: #ced4da solid 1px;
+  background: #fbfcfc;
+  border-bottom: #ced4da solid 1px;
+  padding: 24px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  width: 1140px;
+}
+
+.page-title-border {
+  border-left: 4px solid #6770D2;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-content {
+  color: #405757;
+  padding: 0px 0px 0px 24px;
+}
+
+#title {
+  font-family: Roboto, sans-serif;
+  padding: 0px 24px;
+  margin: 0px;
+}
+
+#subtitle {
+  margin: 0px;
+  padding: 5px 0px 0px 0px;
+}
+
+.title-button {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+#star-button {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin-right: 15px;
+  font-size: 1rem;
+  box-shadow: 0 0.125rem 0.625rem rgb(52 58 64 / 40%), 0 0.0625rem 0.125rem rgb(52 58 64 / 50%);
+}
+
+.arrow-icon {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+#add-button {
+  background-color: #3ac47d;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 6px 24px;
+  font-weight: bolder;
+  box-shadow: 0 0.125rem 0.625rem rgb(58 196 125 / 40%), 0 0.0625rem 0.125rem rgb(58 196 125 / 50%);
+}
+
+#add-btn {
+  margin: 0%;
+  padding: 2px 2px 2px 4px;
+  font-size: .81818rem;
+}

@@ -1,0 +1,94 @@
+.drop-down-heading{
+  /* margin-Bottom: "1px"; */
+  text-Align:"left";
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+
+.drop-down-subheading{
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bdb9b933;    
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0000001A;
+}
+.purchase_button button {
+  margin-left: 100px;
+  background-color: transparent;
+  border-radius: 5px;    
+}
+
+.drop {    
+  position: absolute;
+  width: 100%;
+  background-color: #FFFFFF;
+  animation-duration: 0.1s;
+  animation-name: dashboard;
+  animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);;
+  transform: translateY(20px);
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+@keyframes dashboard{
+  from{
+      transform: translateY(-25px);
+  }
+  to{
+      transform: translateY(20px);
+  }
+}
+
+.drop_header {
+  background-image: url('https://www.vamosrayos.com/b/2020/01/illustrator-background-textures-cool-free-download-textured-wallpaper-908x605.jpg');
+  color: #FFFFFF;
+  padding: 15px 25px 15px;
+  border-radius: 5px 5px 0px 0px;    
+}
+
+.drop_down_content {
+  padding: 10px 0px 10px;
+  height: 175px;
+  overflow: auto;    
+}
+
+.drop_down_content p {
+  margin: 0%;
+  padding: .4rem 1.5rem;
+  text-align: left;
+}
+.drop_down_content p:hover{
+  background-color: rgba(128, 0, 128, 0.068);
+}
+.purchase_button{
+  margin-top: 10px;
+  border-top: 1px solid gainsboro;
+  display: flex;
+  justify-content: center;
+  padding: 15px;    
+}
+.purchase_button button{
+  border: none;
+  outline: none;
+  padding: 4px 16px;
+  background-color: #3AC47D;
+  color: #FFFFFF;
+  margin: 0%;
+}

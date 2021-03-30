@@ -1,0 +1,41 @@
+.income-chart-container{
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 57%;
+  font-family: roboto,sans-serif;
+}
+
+#income-title{
+  font-family: Roboto,sans-serif;
+  font-size: 20px;
+  margin: 20px 0px;
+  color: #6770D2;
+}
+.income-header{  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  padding: 0px 10px 0px 20px;
+}
+.option-button{
+  padding: 4px 16px;  
+  border-radius: .2rem;
+  background-color: transparent;  
+  color: #444054;
+  border-color: #444054;
+  display: flex;
+  align-items: center;
+}
+
+.option-btn{
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.option-button:hover{
+  background-color: #444054;
+  color: #fff;
+}
+.main-bar{  
+  padding: 8px;
+}

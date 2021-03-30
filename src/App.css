@@ -1,0 +1,10 @@
+body {
+    width: 100%;
+    margin: 0%;
+}
+
+
+.sidebar-chart-container {
+    display: flex;
+    justify-content: center;
+}

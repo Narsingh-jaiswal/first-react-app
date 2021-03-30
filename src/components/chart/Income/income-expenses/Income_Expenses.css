@@ -1,0 +1,107 @@
+
+.monthly-expand{
+  font-size: 16px;
+  margin: 5px 0px;
+}
+.income-expenses-container {
+  background-color: #EEEEEE;
+  border-top: 1px solid #ced4da;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.income-button {
+  background-color: #444054;
+  border: none;
+  padding: 8px 16px;
+  color: #ced4da;
+  font-family: roboto, sans-serif;
+  outline: none;
+}
+
+.income-radius {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;  
+}
+
+.income-radius:focus{
+  background-color: #2D2A37;
+}
+
+.expenses-radius {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.expenses-radius:focus{
+  background-color: #2D2A37;
+}
+
+.income-content {
+  padding: 24px;
+}
+
+#title {
+  padding: 0%;
+  color: #495057;
+}
+
+#subtitle-income {
+  padding: 0px;
+  margin: 4px 0px 24px;
+  font-size: 16px;
+  color: #495057a6;
+  font-family: roboto, sans-serif;
+}
+
+.sales-client {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: roboto, sans-serif;
+}
+
+.sales {
+  width: 40%;
+  background-image: linear-gradient(to right, #434343 0%, black 100%) !important;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.client {
+  width: 40%;
+  background-image: linear-gradient(to right, #434343 0%, black 100%) !important;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.monthly-goal {
+  color: #ced4da;
+  display: flex;
+  justify-content: space-between;
+}
+
+.monthly-content {
+  margin: 0%;
+}
+
+.monthly-percentage {
+  margin: 0%;
+  color: #ced4da;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.goal-color {
+  color: #8b8b8b;
+}
+
+.monthly-expense {
+  color: #3AC47D;
+}
+
+.percentage-color {
+  color: #F7B924;
+}

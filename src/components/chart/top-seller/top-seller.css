@@ -1,0 +1,219 @@
+* {
+  font-family: roboto, sans-serif;
+}
+
+.seller-container {
+  width: 49%;
+}
+
+.seller-container-main{
+  border: 1px solid#ced4da;
+  border-radius: 5px;
+  margin: 0px 0px 30px;
+}
+.seller-detail {
+  background-image: url('https://image.shutterstock.com/image-photo/beautiful-texture-decorative-venetian-stucco-260nw-1193660509.jpg');
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 8px;
+}
+
+#heading {
+  color: white;
+  margin-bottom: 0%;
+  font-size: 25.6px;
+}
+
+#card-example {
+  color: #ffff;
+  margin: 5px 0px 16px;
+  font-size: 16px;
+}
+
+.card-btn{
+  padding: 6px 16px;
+  font-size: 12.8px;
+  font-weight: 500;
+  background-color: #F7B924;
+  border: none;
+}
+
+.card-btn:hover{
+  background-color: #d39a16e1;
+}
+
+#john {  
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#Katie{  
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.pie-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sales-figer{
+  padding: 16px;
+  width: 50%;
+  text-align: center;
+}
+.today-data{
+  margin: 5px;
+  color: #D92500;
+  font-size: 40px;
+}
+.month-data{
+  margin: 0px;
+  color: #6770D2;
+  font-size: 40px;
+}
+.chart{
+  width: 300px;
+  /* height: 200px; */
+}
+#sale{
+  margin-top: 10px;
+}
+
+#month-sale{
+  margin-bottom: 0%;  
+}
+
+.today{
+  border-bottom: 1px solid #ced4da;
+}
+#block-btn-container{
+  padding: 4px;
+  border-top: 1px solid #ced4da;
+}
+.block-btn{
+  color: #F7B924;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+}
+
+.block-btn:hover{
+  background-color: #F7B924;
+  color: black;
+}
+
+.user-card{
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.user-card-detail{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url('https://media.freestocktextures.com/cache/0d/42/0d42eeb83ad3a56c97468d69721b2c18.jpg');
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+}
+.user-card-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+.name-subname{
+  margin-left: 16px;
+}
+.ruben{
+  border-radius: 50%;
+  border: 2px solid #fff;
+  max-width: 58px;
+}
+.ruben-name{
+  color: #fff;  
+  margin-bottom: 0%;
+  font-size: 20px;
+}
+#subname{
+  color: white;
+  margin-top: 5px;
+}
+#view-profile-btn{
+  background-color: #3AC47D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  margin: 0%;
+  font-size: 12.8px;
+  font-weight: bold;
+}
+#new-lead{
+  text-align: center;
+  font-weight: lighter;
+  color: #495057;
+  padding: 24px;
+}
+#exact-lead{
+  color: #D92550;
+}
+#price-tag{
+  color: #3AC47D;
+}
+.top-btn{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+}
+.bottom-btn{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid #ced4da; */
+}
+
+.common-property{
+  padding: 4px;
+  width: 50%;
+}
+.common-btn-property{
+  padding: 8px 12px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  /* color: #495057; */
+}
+.automation{
+  border-right: 1px solid #ced4da;
+}
+
+.automation:hover .common-btn-property{
+  background-color: #343a40;
+  color: #fff;
+}
+
+.activity-div {
+  border-right: 1px solid #ced4da;  
+}
+
+.activity-btn{
+  color: #3AC47D;
+}
+
+/* .activity{
+  color: #3AC47D;
+} */
+
+.activity-div:hover .activity-btn{
+  background-color: #3AC47D;
+  color: #fff;
+}
+
+.common-btn-property p{
+  margin-bottom: 0%;
+}

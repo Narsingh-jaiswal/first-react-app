@@ -1,0 +1,16 @@
+.charts-main-container{
+  padding: 24px;
+  /* display: flex; */
+  align-items: center;
+}
+.chart-container{
+  margin: auto;
+  width: 1140px;
+  display: flex;    
+  justify-content: space-between;
+}
+.bug-seller{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}

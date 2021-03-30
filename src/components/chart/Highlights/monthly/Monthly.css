@@ -1,0 +1,32 @@
+.monthly-container{  
+  border: 1px solid #CED4DA;
+  border-radius: 5px;
+  font-family: Roboto,sans-serif;
+}
+.monthly-title{
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px 20px;
+}
+.title{
+  color: #6770D2;
+  margin: 10px 0px 0px 0px;
+  font-size: 20px;
+  font-family: Roboto,sans-serif;
+}
+.data-chart{
+  padding:  0px 16px 8px;
+}
+.revenue-data{
+  display: flex;
+  align-items: center;
+}
+#revenue{
+  color: #495057;
+  margin: 14px 0px;
+}
+.revenue-content{
+  color: #6C757D;
+  font-size: 17px;
+  margin: 0px 0px 0px 8px;
+}

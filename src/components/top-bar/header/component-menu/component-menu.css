@@ -1,0 +1,37 @@
+.component-menu-container{
+  width: 622px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0.46875rem 2.1875rem rgb(13 16 45 / 3%), 0 0.9375rem 1.40625rem rgb(13 16 45 / 3%), 0 0.25rem 0.53125rem rgb(13 16 45 / 5%), 0 0.125rem 0.1875rem rgb(13 16 45 / 3%);
+  border: 1px solid #cecece;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(25px);
+  animation: component-menu-animation .1s ease-in-out;
+}
+
+@keyframes component-menu-animation{
+  from{
+    transform: translateY(-25px);
+  }
+  to{
+    transform: translateY(25px);
+  }
+}
+
+.component-container-div{
+  width: 180px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;  
+  padding: 10px;
+}
+.component-menu-content{
+  padding: 8px;
+  text-decoration: none;
+  color: #212529;
+}
+.component-border-div{
+  border-left: 1px solid #cecece;
+}

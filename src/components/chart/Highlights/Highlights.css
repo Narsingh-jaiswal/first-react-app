@@ -1,0 +1,74 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+.highlight-container{  
+  width: 40%;
+}
+.highlight-main-container{  
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.highlight-border{
+  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+#highlight-title{
+  margin: 0px 0px 10px 0px;
+  font-family: Roboto, sans-serif;
+  font-size: 14.4px;
+  color: #CED4DA;
+  text-transform: uppercase;
+}
+.user-detail{
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  border: 1px solid #CED4DA;
+  border-radius: 5px;
+  height: 200px;
+  overflow: auto;
+}
+.user-list{
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #CED4DA;
+}
+.profile-detail{
+  display: flex;
+  align-items: center;
+}
+.profile-detail img{
+  width: 38px;
+  border-radius: 50%;
+}
+.user-name{
+  margin: 0%;
+  margin-bottom: 5px;
+  font-size: 14.4px;
+  font-weight: 400;
+  font-family: roboto,sans-serif;
+}
+.name-detail{
+  padding: 0px 10px;
+}
+.after-name{
+  background-color: #6770D2;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.price-tag{
+  color: #3AC47D;
+  margin: 0px;
+}
+.monthly-start{
+  margin-top: 20px;
+}
