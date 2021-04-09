@@ -7,8 +7,7 @@ import Chart from './components/chart/Chart'
 import { useState } from 'react';
 
 function App() {
-  const [sidebar, setsidebar] = useState(false)  
-  console.log(sidebar);
+  const [sidebar, setsidebar] = useState(false) 
   return (
     <>
       <Topbar />

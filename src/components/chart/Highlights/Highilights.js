@@ -1,6 +1,5 @@
 import React from 'react'
 import './Highlights.css'
-import avtar from './../../../assets/avtar.png'
 import Monthly from './monthly/Monthly'
 
 const Highlights = () => {

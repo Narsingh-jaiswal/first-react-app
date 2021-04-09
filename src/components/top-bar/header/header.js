@@ -22,19 +22,16 @@ const Header = () => {
 			displayValue(false)
 		}
 		if(event.target.matches('#layout')){
-			LayoutValue(true)
-			console.log(Layout);
+			LayoutValue(true)			
 		}else{
 			LayoutValue(false)
 		}
 		if(event.target.matches('#components')){
-			componentsValue(true)
-			console.log(Layout);
+			componentsValue(true)			
 		}else{
 			componentsValue(false)
 		}		
 	}
-	console.log(display);
 	return (
 		<>
 			<div className="hearder-container">

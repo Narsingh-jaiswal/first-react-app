@@ -1,7 +1,5 @@
 import React from 'react'
 import './app_page_title_bar.css'
-import star from './../../assets/star.png'
-import plus from "./../../assets/plus.png";
 
 const App_page_title = () => {
   return (

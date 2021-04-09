@@ -1,7 +1,6 @@
 import React from 'react'
 import './top-seller.css'
 import { Pie } from "react-chartjs-2";
-import avtar from "./../../../assets/avtar.png";
 import lighter from "./../../../assets/lighter.png";
 
 const Seller = () => {

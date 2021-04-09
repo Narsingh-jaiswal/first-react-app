@@ -1,7 +1,6 @@
 import React from 'react'
 import './bug.css'
 import education from "./../../../assets/education.png";
-import right_arrow from "./../../../assets/right-arrow.png";
 import { Bar,Line} from "react-chartjs-2";
 
 const Bug = () => {
